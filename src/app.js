@@ -6,7 +6,7 @@ import cookieParser from "cookie-parser";
 import authRoutes from "./routes/auth.routes.js";
 import mobileRoutes from "./routes/mobile.routes.js";
 
-import notFound from "./middleware/notFound.middleware.js";
+import notFound from "./middleware/notfound.middleware.js";
 import errorHandler from "./middleware/error.middleware.js";
 
 // console.log(notFound)
