@@ -9,6 +9,8 @@ import mobileRoutes from "./routes/mobile.routes.js";
 import notFound from "./middleware/notFound.middleware.js";
 import errorHandler from "./middleware/error.middleware.js";
 
+// console.log(notFound)
+
 const app = express();
 
 // Security headers
